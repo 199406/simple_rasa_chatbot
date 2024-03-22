@@ -1,0 +1,243 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hello
+    - Hey
+- intent: how_are_you
+  examples: |
+    - How are you?
+    - How's it going?
+    - How are you doing?
+    - What's up?
+    - How do you feel?
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Good bye
+    - Goodbye
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ProductInquiry
+  examples: |
+    - Show me [skateboards](ProductCategory)
+    - Show me [scooters](ProductCategory)
+    - I'm looking for [science kits](ProductCategory)
+    - Can you recommend some [craft kits](ProductCategory)?
+    - I need [musical toys](ProductCategory) for my child
+    - What [kids furniture](ProductCategory) do you have?
+    - Do you have any [Bobbleheads](ProductCategory)?
+    - Find me [Building Sets](ProductCategory)
+    - Looking for [Action Figures](ProductCategory) from superhero movies
+    - Show me [Electronic Learning Toys](ProductCategory)
+    - I want to buy [Card Games](ProductCategory) for a game night
+    - Can I get [Stuffed Animals](ProductCategory)?
+    - I'm interested in [Board Games](ProductCategory) for kids.
+    - Find me [Dolls](ProductCategory) for my niece
+    - Show me some [Banners](ProductCategory) for a party
+    - I'm looking for [Pretend Play](ProductCategory) sets
+    - Can you recommend some [Decorations](ProductCategory) for a baby shower?
+    - I need [Team Sports](ProductCategory) equipment
+    - What [App Controlled Vehicles](ProductCategory) do you have?
+    - Do you have any [Clay & Dough](ProductCategory) for kids?
+    - Find me [Play Sets & Playground Equipment](ProductCategory)
+    - Looking for [Educational Apps](ProductCategory) for early learning
+    - Show me [Outdoor Furniture](ProductCategory) for summer
+    - I want to buy [Puzzles](ProductCategory) for brain exercise
+    - Can I get [Craft Supplies](ProductCategory) for DIY projects?
+    - I'm interested in [Gaming Tops](ProductCategory)
+    - Find me [Drawing & Painting Supplies](ProductCategory) for art class
+    - Show me some [Fidget Toys](ProductCategory) for stress relief
+    - I'm looking for [Kitchen Utensils & Gadgets](ProductCategory) for cooking
+    - Can you recommend some [Travel Accessories](ProductCategory)?
+    - I need [Bath & Bathing Accessories](ProductCategory) for toddlers
+    - Can you show me some plush [toys](ProductCategory)?
+    - I'm interested in [skates, skateboards and scooters](ProductCategory)
+     - I'm interested in [skates, skateboards and scooters](ProductCategory)
+    - Do you carry any [science kits and toys](ProductCategory)?
+    - I need to buy some [craft kits](ProductCategory) for a weekend project
+    - Show me your collection of [models and model kits](ProductCategory)
+    - Looking for challenging [jigsaw puzzles](ProductCategory) for adults
+    - What type of [kids and baby](ProductCategory) products do you have?
+    - I'm decorating a room and need [window treatments](ProductCategory)
+    - Any new arrivals in [statues, bobbleheads and busts](ProductCategory)?
+    - I want to see the latest [building sets](ProductCategory) you have
+    - Looking for [musical toys](ProductCategory) suitable for toddlers
+    - Show me [flash cards](ProductCategory) for early learning
+    - I'm in the market for some stylish [kids' furniture](ProductCategory)
+    - Can you suggest any [money banks](ProductCategory) for kids?
+    - I need [slumber bags](ProductCategory) for a sleepover party
+    - Show me your best [hobby building tools and hardware](ProductCategory)
+    - I'm looking for [teaching clocks](ProductCategory) to help with time teaching
+    - What [kids' room décor](ProductCategory) items do you have on sale?
+    - I need some new [team sports](ProductCategory) gear for the season
+    - Looking for [costumes](ProductCategory) for a themed party
+    - Show me the [action figures](ProductCategory) collection you have
+    - I'm searching for [banners](ProductCategory) for a birthday party
+    - Do you have [training and behavior aids](ProductCategory) for pets?
+    - I'm looking for [dolls](ProductCategory) that are suitable for all ages
+    - What [remote and app controlled vehicles and parts](ProductCategory) do you carry?
+    - Show me your [electronic learning toys](ProductCategory) section
+    - I need new [clothing](ProductCategory) for my workout routine
+    - Can you recommend some [card games](ProductCategory) for family game night?
+    - I'm looking for [accessories](ProductCategory) for my new gadget
+    - Show me [sorting and stacking toys](ProductCategory) for cognitive development
+    - I'm interested in [stuffed animals and teddy bears](ProductCategory) for a gift
+    - Do you have any [playsets](ProductCategory) themed around dinosaurs?
+    - Looking for [miniatures](ProductCategory) for a diorama project
+    - I need [plush puppets](ProductCategory) for a school play
+    - Show me some [plush figures](ProductCategory) for a nursery decoration
+    - What [team sports](ProductCategory) equipment do you recommend for beginners?
+    - I'm searching for [playsets and vehicles](ProductCategory) for a playroom
+    - Do you have any [clay and dough](ProductCategory) sets for creative play?
+    - I'm interested in [board games](ProductCategory) that focus on strategy
+    - Can you show me [game accessories](ProductCategory) for video gaming?
+    - I need [toys and game room](ProductCategory) ideas for a family space
+    - Show me [pretend play](ProductCategory) sets that encourage imagination
+    - I'm looking for [trains and accessories](ProductCategory) for a model railway
+    - Do you have [card games](ProductCategory) that are travel-friendly?
+    - I need [paper and paper crafts](ProductCategory) supplies for a project
+    - Show me [play sets and playground equipment](ProductCategory) for outdoor fun
+    - Looking for [plush pillows](ProductCategory) that are also fun toys
+    - What [electronics](ProductCategory) are popular for kids right now?
+    - I need [leisure sports and game room](ProductCategory) equipment for a rec room
+     
+     
+     
+
+- intent: ProductDetails
+  examples: |
+    - Show me more about the [first](ProductNumber) product
+    - I want more information on the [second](ProductNumber) one
+    - Give me details about the [third](ProductNumber) product
+    - Can you tell me more about the [fourth](ProductNumber) product?
+    - I'd like to know more about the [fifth](ProductNumber) item
+    - Can I see details for the [first](ProductNumber) option?
+    - What's special about the [second](ProductNumber) one?
+    - I'm curious about the [third](ProductNumber) product.
+    - Details on the [fourth](ProductNumber), please.
+    - What can you tell me about the [fifth](ProductNumber) item?
+    - Provide info on the [first](ProductNumber) product listed.
+    - Share more on the [second](ProductNumber) item.
+    - Insight on the [third](ProductNumber), if you may.
+    - Elaborate on the [fourth](ProductNumber)'s features.
+    - I need information on the [fifth](ProductNumber) one.
+    - Give me details about the [second](ProductNumber) product
+    - I need more information about [second](ProductNumber) product
+- intent: inquire_dimensions
+  examples: |
+    - What are the dimensions of [first](ProductNumber)?
+    - Can you tell me the size of [second](ProductNumber)?
+    - I need the dimensions for [third](ProductNumber).
+    - How big is [fourth](ProductNumber)?
+    - What's the size of [fifth](ProductNumber)?
+    - Show me the dimensions for [first](ProductNumber).
+    - Dimensions of [second](ProductNumber)?
+    - Size details for [third](ProductNumber) please.
+    - can you show me dimensions of the [second](ProductNumber)?
+    - What are the dimensions of [first](ProductNumber) product?
+- intent: inquire_weight
+  examples: |
+    - What's the weight of [first](ProductNumber)?
+    - Can you tell me how heavy [second](ProductNumber) is?
+    - I need to know the weight for [third](ProductNumber).
+    - How much does [fourth](ProductNumber) weigh?
+    - Tell me the weight of [fifth](ProductNumber).
+    - Show me the weight for [first](ProductNumber).
+    - Weight details of [second](ProductNumber)?
+    - How heavy is [third](ProductNumber) please?
+    - Now can you show me the weight of the [first](ProductNumber) product?
+    - Weight details of [second](ProductNumber) product, please?
+
+- intent: inquire_price
+  examples: |
+    - How much does [first](ProductNumber) cost?
+    - What is the price of [second](ProductNumber)?
+    - Can you tell me the price for [third](ProductNumber)?
+    - Price of [fourth](ProductNumber)?
+    - I want to know the cost of [fifth](ProductNumber).
+    - Tell me how much [first](ProductNumber) is.
+    - Show me the price for [second](ProductNumber).
+    - What does [third](ProductNumber) cost?
+    - okay,can you show me the price of [third](ProductNumber) product?
+- intent: feedback
+  examples: |
+    - That was really helpful, thanks!
+    - Not exactly what I was looking for.
+    - You've been a great help.
+    - This isn't helpful at all.
+    - Fantastic, just what I needed!
+    - I don't think this is right.
+    - Very useful, thank you.
+    - Could be better.
+    - Thank you, for your help!
+    - Thank you. it was helpful
+- synonym: Dolls
+  examples: |
+    - dolls
+- synonym: first
+  examples: |
+    - initial
+    - foremost
+    - beginning
+- synonym: second
+  examples: |
+    - next
+    - following
+    - another
+- synonym: third
+  examples: |
+    - thirdly
+    - tertiary
+- synonym: fourth
+  examples: |
+    - fourthly
+    - quarter
+- synonym: fifth
+  examples: |
+    - fifthly
+    - quint

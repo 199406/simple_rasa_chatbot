@@ -1,0 +1,15 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjlEKwyAQRK/iAXICrxLCImYIC3VN1zUQxLvXYv8D/ZsHb4ZZW19cOxUXhWicxbs2A0lI8O4HLy4GGW4t0OGwDDTvDgWsP2xUMyhN9b+Fhxen5r1GI5Z3Zb1JEXNKkD18a71vH+ATWPk=": "utter_product_inquiry_recommendation",
+    "eJydjlEKhDAMRK/SA3iCXmVZQqnDEtimGtMFKd59K/pf9S8Db17mVbfB1UnxoxCNs3hXj4MkJHh3hi8vBmlsWaCNYWnRvPsoYFvHUcygdKDPDJ0Vk+axRCOWubCupIg5JcgY9tq1eR3H7Z/vP5Qahyc=": "action_search_products",
+    "eJytjlEKAjEMRK/SA3iCXmWRULqDBmy6m6aClL27lV2/q+JfBibvzdS2k2uL4k4hGmfxru0HSUjw7gg3Lgbp3VqgvcPSo3l3UcC2AaOaQWmv/kYYrFg0zzUasayV9UGKmFOCzOH19tm8AePPziMUBI3Xt7t8bzk/AVLbr0M=": "utter_ask_feedback",
+    "eJy1j10OwiAQhK/CATwBVzFmg3RUUlnqspgY0rtL0/qMGn3bL5mdn32dd6ZOgjs5ryGxNXU9iF2ENRtcQ1Zw05YMaZrADdWaswA6dzyKKoRW6XcOnRaTpKF4pcC3EuRBAp9iBA9ueXuvXsfjx5kbZDjxl1d2/s8yl0c6AcPR+fHzhMMTqHPVjw==": "action_listen",
+    "eJy1UVsKAjEMvEoP4Al6FZEQu1HL2nRNU0FK726XXf2Tirh/GZjMg9mXujNlEroDOvWRrSnLAYyBrFnB1SclbtycSBrHc4NqzVmItHY0sioJLNTfFDopJolDdgqeb9nLA4RcDIF4wPntu3gdjT97riARiru8vNM2zTCNcCIajujGjXp8GuZtWw9Pp4XwcQ==": "action_analyze_feedback",
+    "eJy1kVEOgkAMRK+yB/AEXMWYTd0ddQN0sds1QcLdwYD6pRAjf51k+maa7rt+Z7pGcLPkNEQuTDcNlqlGYWZRhaTg0ZsTZPQEHqUW5iyA9guMrAqxk/U3wkKLRqLPTm3gaw7SWoGLdQ329FhbV2+B8efMWSSQuMszO21zGaXSngB/JFdudMenx7xi12GIqWrv+NL2DTwMqFkPSw==": "action_listen",
+    "eJy1klEOgjAQRK/SA3gCrmJMs7SjNkCL260Jkt4dDOgfgkb+dpLpm9l0j30+qL5l3DUZccEXqp8G7alBoWZRuyjwozdF8OhxfpRSqAsDklcYSQSsJ+tvhJUWLQebjGjnb8lxpxkmNA28peezbfVWGH/OnEUEsbm+suM+m1Gs9BmwJZlqpz2WPuYduw1DnurugQ9tvwQunm0ItuyQ82kAfnMp8Q==": "utter_goodbye",
+    "eJy1klEOgjAQRK/SA3gCrmJMs7SjNsAWt1sTJN5dDOgfgkb+Osn0zWx29/19Z/pWcLXkNEQuTD8+LFODwkyiDknBgzcnyOAJPEgtzEkAvS8wsirEjtbfCAstWok+O7WBLzlIZwUuNg3Y0/PbunoLjD9nTiKBxJ1f2WmbyShV9gj4kly10Rxzi3nHrsMQU93d8KHtl8DZs43Rlx1WHu5knqccHqF6RKc=": "action_listen"
+  }
+}

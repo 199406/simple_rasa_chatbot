@@ -1,0 +1,192 @@
+version: "3.1"
+
+stories:
+
+- story: user inquires about products and asks for details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "toys"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: ProductDetails
+    entities:
+    - ProductNumber: "first"
+  - action: utter_request_additional_info
+  - action: action_show_product_details
+  - intent: feedback
+  - action: action_analyze_feedback
+
+
+- story: user inquires about product dimensions after product details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "craft kits"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: ProductDetails
+    entities:
+    - ProductNumber: "second"
+  - action: utter_request_additional_info
+  - action: action_show_product_details
+  - intent: inquire_dimensions
+    entities:
+    - ProductNumber: "first"
+  - action: utter_request_dimensions
+  - action: action_show_product_dimensions
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: user inquires about product category and dimensions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "science kits"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: inquire_dimensions
+    entities:
+    - ProductNumber: "fifth"
+  - action: utter_request_dimensions
+  - action: action_show_product_dimensions
+  - intent: feedback
+  - action: action_analyze_feedback
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: user denies recommendation and inquires new category
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "action figures"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: deny
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "stuffed animals"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: ProductDetails
+    entities:
+    - ProductNumber: "third"
+  - action: action_show_product_details
+  - intent: feedback
+  - action: action_analyze_feedback
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: user challenges bot and inquires category
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_challenge
+  - action: utter_how_are_you
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "outdoor furniture"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: affirm
+  - intent: ProductDetails
+    entities:
+    - ProductNumber: "second"
+  - action: utter_request_additional_info
+  - action: action_show_product_details
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: user inquires about product weight after details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "board games"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: ProductDetails
+    entities:
+    - ProductNumber: "first"
+  - action: utter_request_additional_info
+  - action: action_show_product_details
+  - intent: inquire_weight
+    entities:
+    - ProductNumber: "first"
+  - action: utter_request_weight
+  - action: action_show_product_weight
+  - intent: feedback
+  - action: action_analyze_feedback
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: user directly inquires about product price
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "puzzles"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: inquire_price
+    entities:
+    - ProductNumber: "second"
+  - action: utter_request_price
+  - action: action_show_product_price
+  - intent: feedback
+  - action: action_analyze_feedback
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: user asks for weight details after getting product info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "educational toys"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: ProductDetails
+    entities:
+    - ProductNumber: "third"
+  - action: utter_request_additional_info
+  - action: action_show_product_details
+  - intent: inquire_weight
+    entities:
+    - ProductNumber: "third"
+  - action: utter_request_weight
+  - action: action_show_product_weight
+
+- story: how are you and user asks about product and it details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_are_you
+  - action: utter_how_are_you
+  - intent: ProductInquiry
+    entities:
+    - ProductCategory: "toys"
+  - action: utter_product_inquiry_recommendation
+  - action: action_search_products
+  - intent: ProductDetails
+    entities:
+    - ProductNumber: "first"
+  - action: utter_request_additional_info
+  - action: action_show_product_details
+  - intent: feedback
+  - action: action_analyze_feedback
+

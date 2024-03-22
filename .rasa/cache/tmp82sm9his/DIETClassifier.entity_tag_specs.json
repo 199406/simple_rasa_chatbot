@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-ProductCategory",
+      "2": "I-ProductCategory",
+      "3": "L-ProductCategory",
+      "4": "U-ProductCategory",
+      "5": "B-ProductFeature",
+      "6": "I-ProductFeature",
+      "7": "L-ProductFeature",
+      "8": "U-ProductFeature",
+      "9": "B-ProductName",
+      "10": "I-ProductName",
+      "11": "L-ProductName",
+      "12": "U-ProductName",
+      "13": "B-ProductNumber",
+      "14": "I-ProductNumber",
+      "15": "L-ProductNumber",
+      "16": "U-ProductNumber",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-ProductCategory": 1,
+      "I-ProductCategory": 2,
+      "L-ProductCategory": 3,
+      "U-ProductCategory": 4,
+      "B-ProductFeature": 5,
+      "I-ProductFeature": 6,
+      "L-ProductFeature": 7,
+      "U-ProductFeature": 8,
+      "B-ProductName": 9,
+      "I-ProductName": 10,
+      "L-ProductName": 11,
+      "U-ProductName": 12,
+      "B-ProductNumber": 13,
+      "I-ProductNumber": 14,
+      "L-ProductNumber": 15,
+      "U-ProductNumber": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]
