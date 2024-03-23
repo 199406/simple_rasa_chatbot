@@ -29,3 +29,5 @@ he Rasa framework and utilizes custom actions in Python for dynamic interactions
 
 # Database Setup
 Before running the chatbot, ensure the SQLite database is set up correctly. Run db_utils.py with the appropriate CSV file path to create the database and prepare it for product searches.
+
+![Product Image](./1.jpg)
