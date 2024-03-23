@@ -38,4 +38,7 @@ Before running the chatbot, ensure the SQLite database is set up correctly. Run 
 
 # P.S.
 
-Chatbot only searches buy category and it's not the bes way (I believe). Chatbot flow is simple (Could be better). In action.py I am repeating myself, which is not good , but I have not had time and capcity to deal with it. It's not a perfect project, but at least I tried. 
+Chatbot only searches buy category and it's not the bes way (I believe).When a user requests more details about a product by referring to it as the "first", "second", "third", etc., the chatbot understands this as a specific order in the list of products provided.  Chatbot flow is simple (Could be better). In action.py I am repeating myself, which is not good , but I have not had time and capcity to deal with it. It's not a perfect project, but at least I tried. 
+
+
+
