@@ -30,5 +30,12 @@ he Rasa framework and utilizes custom actions in Python for dynamic interactions
 # Database Setup
 Before running the chatbot, ensure the SQLite database is set up correctly. Run db_utils.py with the appropriate CSV file path to create the database and prepare it for product searches.
 
+# Images
 ![Product Image](https://github.com/199406/simple_rasa_chatbot/blob/main/1.JPG)
+![Product Image](https://github.com/199406/simple_rasa_chatbot/blob/main/2.JPG)
+!![Product Image](https://github.com/199406/simple_rasa_chatbot/blob/main/3.JPG)
+![Product Image](https://github.com/199406/simple_rasa_chatbot/blob/main/4.JPG)
 
+# P.S.
+
+Chatbot only searches buy category and it's not the bes way (I believe). Chatbot flow is simple (Could be better). In action.py I am repeating myself, which is not good , but I have not had time and capcity to deal with it. It's not a perfect project, but at least I tried. 
